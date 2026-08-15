@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hemlata Uday Hair Care</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>🌿 Hemlata Uday Hair Care</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-box">
+
+        <h3>Business Information</h3>
+
+        <p><strong>Owner:</strong> Hemlata Uday</p>
+
+        <p><strong>Established Since:</strong> 1992</p>
+
+        <p>
+            <strong>Phone:</strong>
+            <a href="tel:+917568963923">+91 7568963923</a>
+        </p>
+
+        <p>
+            <strong>Address:</strong> Bus Stand, Arain, Rajasthan, India
+        </p>
+
+    </div>
+
+    <div class="message-box">
+
+        <h3>Send Us a Message</h3>
+
+        <form id="contactForm">
+
+            <label for="name">Your Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="phone">Phone Number</label>
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+            <label for="message">Your Message</label>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Hemlata Uday Hair Care. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
